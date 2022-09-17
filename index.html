@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir PMB</title>
+</head>
+<body>
+    <img src="/Gambar/kop-surat-IKMI.png" width="100%">
+
+    <h1><center>FORMULIR PENDAFTARAN MAHASISWA BARU</center></h1>
+    <h4>PETUNJUK PENGISIAN</h4>
+    <ol>
+        <li>Isilah data isian dengan cermat, teliti dan beanr</li>
+        <li>isilah dengan huruf kapital</li>
+        <li>salah penulisan pada pengisian formulir ini akan berakibat kesalahan pada penulisan data saudara pa ijazah</li>
+    </ol>
+
+    <form action="" method="post">
+    <fieldset width="50%">
+        <legend><strong> FORM DATA DIRI </strong></legend>
+        <table padding="7" border="0px" width="100%">
+            <tr>
+                <th>1.</th>
+                <th>No Pendaftaran </th>
+                <td>:</td>
+                <td align="left" valign="top"><input type="text" style="width: 63%;"></td>
+            </tr>
+            <tr>
+                <th>2.</th>
+                <th>Nama </th>
+                <td>:</td>
+                <td><input type="text" style="width: 63%;"></td>
+            </tr>
+            <tr>
+                <th>3.</th>
+                <th>Tanggal Ujian </th>
+                <td>:</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <th>4.</th>
+                <th>Jenis Kelamin </th>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="jeniskelamin" ><label for="Laki-laki">Laki-laki</label>
+                    <input type="radio" name="jeniskelamin" ><label for="Perempuan">Perempuan</label>
+                </td>
+            </tr>
+
+            <!-- Pemilihan Jurusan -->
+            <tr>
+                <th>5.</th>
+                <th text-align="left">Jenjang/Jurusan yang dipilih</th>
+                <td>:</td>
+                <td>
+                    <table border="1px" cellpading="7" align="left" width="700px" height="200px">
+                        <thead>
+                            <tr>
+                                <th rowspan="2">Jenjang</th>
+                                <th colspan="2">PROGRAM STUDI</th>
+                            </tr>
+                            <tr>
+                                <th>REGULER</th>
+                                <th>KARYAWAN</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>D III</th>
+                                <td>
+                                    <input type="checkbox" ><label for="Komputerisai">Komputerisai Akutansi</label>
+                                    <br>
+                                    <input type="checkbox" ><label for="Manajemen Informatika">Manajemen Informatika</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" ><label for="Komputerisai">Komputerisai Akutansi</label>
+                                    <br>
+                                    <input type="checkbox" ><label for="manajemen Informatika">Manajemen Informatika</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>S 1</th>
+                                <td>
+                                    <input type="checkbox" ><label for="Rpl-s1">Rekayasa Perangkat Lunak</label>
+                                    <br>
+                                    <input type="checkbox" ><label for="TI">Teknik Informatika</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" ><label for="Rpl-s1">Rekayasa Perangkat Lunak</label>
+                                    <br>
+                                    <input type="checkbox" ><label for="TI">Teknik Informatika</label>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <th valign="top">Sistem Pembayaran </th>
+                    <td valign="top">:</td>
+                    <td>
+                        <input type="radio" name="Pembayaran" ><label for="Angsuran">Angsuran</label>
+                        <input type="radio" name="Pembayaran" ><label for="Tunai">Tunai</label>
+                    </td>
+                </th>
+            </tr>
+            <tr>
+                <th></th>
+                <th align="center" valign="top">Ukuran Jaket </th>
+                <td align="center" valign="top">:</td>
+                <td>
+                    <select>
+                    <option>-</option>
+                    <option value="text">Small</option>
+                    <option value="text">medium</option>
+                    <option value="text">Large</option>
+                    <option value="text">Extra Large</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <br>
+    <fieldset width="50%">
+        <legend><strong> DATA PRIBADI </strong></legend>
+        <table padding="7" border="0px" width="73%">
+            <tr>
+                <th>6.</th>
+                <th>AGAMA </th>
+                <td>:</td>
+                <td colspan="2"><input type="text" style="width: 168%;"></td>
+            </tr>
+            <tr>
+                <th>7.</th>
+                <th>Tempat Dan Tanggal Lahir </th>
+                <td>:</td>
+                <td colspan="2"><input type="text" style="width: 168%;"></td>
+            </tr>
+            <tr>
+                <th>8.</th>
+                <th>Alamat Dan No Rumah</th>
+                <td>:</td>
+                <td colspan="4"><textarea cols="50" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <th>
+                    <th>RT/RW </th>
+                    <td>:</td>
+                    <td colspan="2"><input type="text" style="width: 168%;"></td>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <th>Kode Pos </th>
+                    <td>:</td>
+                    <td colspan="2"><input type="text" style="width: 168%;"></td>
+                </th>
+            </tr>
+            <tr>
+                <th>9.</th>
+                <th>No Handphone </th>
+                <td>:</td>
+                <td colspan="1"><input type="text" style="width: 168%;"></td>
+            </tr>
+            <tr>
+                <th>10.</th>
+                <th>Kewarganegaraan </th>
+                <td>:</td>
+                <td>
+                    <input type="checkbox">WNI
+                    <input type="checkbox">WNA
+                </td>
+                <th> Gol Darah:
+                    <td><select>
+                        <option value="gol darah">-</option>
+                        <option value="">A</option>
+                        <option value="">B</option>
+                        <option value="">AB</option>
+                        <option value="">O</option>
+                        </select>
+                    </td>
+                </th>
+            </tr>
+            <tr>
+                <th>11.</th>
+                <th>Nama Orang tua/ Wali </th>
+                <td>:</td>
+                <td colspan="2"><input type="text" style="width: 168%;"></td>
+            </tr>
+            <tr>
+                <th>
+                    <th>Pekerjaan </th>
+                    <td>:</td>
+                    <td><input type="checkbox" >PNS/TNI/POLRI</td>
+                    <td><input type="checkbox" >Swasta</td>
+                    <td><input type="checkbox" >Wiraswasta</td>
+                    <td><input type="checkbox" >Lain-lain</td>
+                </th>
+            </tr>
+
+        </table>
+    </fieldset>
+    <br>
+    <fieldset width="50%">
+        <legend><strong> PENDIDIKAN </strong></legend>
+        <table width="52%" border="0px">
+            <tr>
+                <th>12.</th>
+                <th>Asal SMA/SMK </th>
+                <td>:</td>
+                <td colspan="5"><input type="text" style="width: 177%;"></td>
+            </tr>
+            <tr>
+                <th>
+                    <th>Status Sekolah </th>
+                    <td>:</td>
+                    <td><input type="checkbox" name="swasta" >Swasta</td>
+                    <td><input type="checkbox" name="swasta" >Negri</td>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <th>Jurusan </th>
+                    <td>:</td>
+                    <td colspan="5"><input type="text" style="width: 177%;"></td>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <th>Nomor ijazah SMA/SMK </th>
+                    <td>:</td>
+                    <td ><input type="text" style="width: 238%;"></td>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <th>Tanggal Lulus </th>
+                    <td>:</td>
+                    <td><input type="date"></td>
+                </th>
+            </tr>
+        </table>
+    </fieldset>
+    </form>
+
+    <h4>Catatan:*) hanya satu pilihan </h4>
+    <hr>
+    <h5 align="right" valign="top">Upload Bukti Tanda Tangan Digital</h5>
+    <form action="" align="right">
+        <input type="file" id="fileSaya" name="Filename">
+        <input type="submit">
+    </form>
+
+    <a href="https://rizwar10.github.io">Back To Home</a>
+
+    <style>
+        a{
+            background-color: aquamarine;
+            color: black;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+
+        }
+
+        a:hover{
+            cursor: pointer;
+            background-color: grey;
+            color: aliceblue;
+            transition-delay: 0.2s;
+            
+        }
+    </style>
+
+    
+    
+</body>
+</html>
